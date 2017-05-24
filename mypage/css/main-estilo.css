@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+h2 .logo {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-end;
+    align-content: space-around;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+
+.nav-main li {
+    list-style: none;
+    padding-top: 20px;
+    word-spacing: 10px;
+}
+
+.nav-main li a {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.background-image {
+    height: 100%;
+    opacity: 0.6;
+}
